@@ -1,0 +1,54 @@
+<! DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulaire avancee</title>
+        <link rel="stylesheet" href="form.css">
+        <style>
+            label {
+                font-weight: bold;
+                color: rgb(14, 0, 77);
+                margin-top: 10px;
+            }
+            input , select , textearea {
+                /* padding: 3px */
+                border: double;
+                border-radius: 5px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulaire d'inscription</h1>
+    </body>
+    <Form action="">
+        <label for="Name">Nom :</label>
+        <input type="text" name="nom" required><br><br>
+        <label for="email"> Email :</label>
+        <input type="email" nom=""><br><br>
+        <label for="Pass word">Mot de passe :</label>
+        <input for="text"><br><br>
+        
+        <label for="pays">Pays :</label>
+        <select id="pays" name="pays">
+            <option value="Burundi">Burundi</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Kenya">Kenya</option>
+        </select><br><br>
+
+        <label>Langues parlees :</label>
+        <input type="checkbox" id="francais" name="langue" value="francais">
+        <label for="francais">Francais</label>
+        <input type="checkbox" id="Anglais" name="langue" value="Anglais">
+        <label for="Anglais">Anglais</label><br><br>
+
+        <label for="message">Votre message :</label><br><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <input type="submit" value="S'inscrire">
+
+
+    </Form>
+
+</html>
